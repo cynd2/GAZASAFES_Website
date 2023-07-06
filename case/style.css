@@ -1,0 +1,170 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+:root{
+  --pr-color: #F9B233;
+  --sd-color: #1e1e1e;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link{
+  font-size: 16px;
+}
+
+.nav-link.active{
+  font-weight: 700;
+}
+
+/* container-fluid */
+#container-fluid{
+  background-color: var(--sd-color);
+  height: 100vh;
+}
+
+.jargon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jargon h1{
+  color: #F9B233;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+.jargon p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.angka-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 30px;
+}
+.angka-wrapper .box-angka{
+  text-align: center;
+}
+.box-angka h1{
+  font-family: 'Arial Narrow';
+  font-weight: 800;
+  color: #F9B233;;
+  font-size: 45px;
+}
+
+/* Product Page */
+.service{
+  background-color: var(--pr-color);
+  padding: 40px 40px;
+}
+
+.service .row-content{
+  margin-top: 100px;
+}
+.service .card-service{
+  background-color: var(--sd-color);
+  box-shadow: 2px 2px 20px #fff (0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 40px 30px;
+  max-width: 420px;
+}
+.service .card-service img{
+  max-width: 150px;
+}
+.service .card-service .detail{
+  margin-left: 25px;
+  color:#fff;
+}
+.card-service .detail h5{
+  font-family: var(--heading-font);
+  font-size: 22px;
+  font-weight: 600;
+  color:#fff
+}
+
+@media only screen and (min-width: 768px) { 
+  .service.card-service{
+    padding: 20px 10px;
+  }
+  .service .card-service .detail{
+    margin-left: 10px;
+  }
+}
+
+/* Testimoni */
+.testimoni{
+  background-color: var(--sd-color);
+  padding: 40px;
+  color:#fff;
+}
+.testimoni .row-content{
+  margin-top: 80px;
+  color:#1e1e1e;
+}
+
+.testimoni .swiper{
+  max-width: 700px !important;
+}
+.testimoni .card .card-body{
+  width: 90%;
+}
+.testimoni .card .img-user{
+  width: 100px;
+}
+.testimoni .card-body i{
+  font-size: 50px;
+}
+
+
+
+/* Footer */
+.footer{
+	background-color: var(--sd-color);
+	margin: 0 auto;
+	padding: 30px 0;
+  }
+  .footer .footer-brand{
+	color: #F9B233;
+	font-family: var(--headingFont);
+	font-weight: 700;
+  }
+  
+  .footer .footer-brand span{
+	color: #fff;
+  }
+  .col1 a{
+	color: #F9B233;
+  }
+  .icon-footer i{
+	font-size: 2rem;
+	color: var(--sd);
+  }
+  
+  .col2 h3, .col3 h3, .col4 h3, .col5 h3{
+	color: #F9B233;
+	margin-bottom: 20px;
+	font-family: var(--headingFont);
+	font-weight: 700;
+  }
+  .col2 ul li, .col3 ul li, .col4 ul li{
+	list-style: none;
+	margin: 10px 0;
+  }
+  
+  .col2 a, .col3 a, .col4 a{
+	color: #fff;
+  }
